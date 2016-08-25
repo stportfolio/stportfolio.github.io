@@ -43,6 +43,28 @@ figure:hover figcaption {
 figure:hover {
   opacity: 1; }
 
+.main {
+  position: relative;
+  animation: mymove 1.2s ease-out forwards;
+  animation-iteration-count: 1;
+  /* Safari and Chrome */
+  -webkit-animation: mymove 1.2s;
+  -webkit-animation-iteration-count: 1; }
+
+@keyframes mymove {
+  from {
+    top: 50px;
+    opacity: 0; }
+  to {
+    top: 0px;
+    opacity: 1; } }
+@-webkit-keyframes mymove /* Safari and Chrome */ {
+  from {
+    top: 50px;
+    opacity: 0; }
+  to {
+    top: 0px;
+    opacity: 1; } }
 .navigation {
   display: flex;
   flex-wrap: wrap;
