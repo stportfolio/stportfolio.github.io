@@ -33,21 +33,6 @@ figcaption {
   text-align: center;
   color: #000; }
 
-img {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1;
-  -webkit-transition: opacity .3s ease-in-out;
-  -moz-transition: opacity .3s ease-in-out;
-  -o-transition: opacity .3s ease-in-out;
-  -ms-transition: opacity .3s ease-in-out;
-  transition: opacity .3s ease-in-out; }
-
-img:hover {
-  opacity: .3; }
-
 .navigation {
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +59,19 @@ img:hover {
   justify-content: center;
   align-items: center; }
   .main img {
-    max-width: 350px; }
+    margin: 0 auto;
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out; }
+  .main img:hover {
+    opacity: .3; }
 
 .content {
   margin: 0 auto;
