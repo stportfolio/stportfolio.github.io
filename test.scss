@@ -17,6 +17,8 @@ h2 {
 
 h3 {
 	font-size:18px;
+	padding:0;
+	margin:0;
 }
 
 p {	
@@ -38,11 +40,24 @@ a:hover {
 	color: #c0c0c0;
 }
 
+
+
 figcaption {
-	text-align:center;
-	color:#000;
+	opacity: 1;
+    text-align: center;
+    h3 {
+    	font-size:13px;
+    }
 }
 
+figure:hover figcaption {
+	opacity:1;
+}
+
+figure:hover {
+	opacity:1;
+
+}
 
 
 .navigation{
@@ -109,6 +124,7 @@ figcaption {
 		img:hover {
 		opacity: .3;
 
+
 		}
 	}
 }
@@ -148,6 +164,17 @@ figcaption {
 
 @media (min-width:769px) {
 
+
+figcaption {
+	opacity: 0;
+    text-align: center;
+      h3 {
+    	font-size:15px;
+    }
+}
+
+
+
 	.main {
 	display: flex;
 	flex-wrap: wrap;
@@ -165,7 +192,7 @@ figcaption {
 		margin:0 auto;
 
 	img {
-		max-width:350px;
+		max-width:300px;
 		max-height:auto;
 	
 	}
