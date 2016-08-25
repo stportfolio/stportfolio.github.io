@@ -149,7 +149,7 @@ figure:hover {
     opacity: 1; } }
 .exit {
   margin: 15px;
-  font-size: 35px;
+  font-size: 30px;
   position: fixed;
   background: white;
   z-index: 5; }
