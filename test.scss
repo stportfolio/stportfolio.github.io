@@ -153,24 +153,7 @@ to {top:0px; opacity: 1;}
 
 
 .content {
-	position:relative;
-animation:mymove 1.2s ease-out forwards;
-animation-iteration-count:1;
 
-/* Safari and Chrome */
--webkit-animation:mymove 1.2s;
--webkit-animation-iteration-count:1;
-}
-
-@keyframes mymove
-{ from {top:50px; opacity: 0;}
-to {top:0px; opacity: 1}
-}
-
-@-webkit-keyframes mymove /* Safari and Chrome */
-{
-from {top:50px; opacity: 0;}
-to {top:0px; opacity: 1;}
 	margin: 0 auto;
 	max-width:600px;
 	display: flex;
@@ -188,6 +171,25 @@ to {top:0px; opacity: 1;}
 	h2 {
 		font-size:18px;
 	}
+
+		position:relative;
+	animation:mymove 1.2s ease-out forwards;
+	animation-iteration-count:1;
+
+	/* Safari and Chrome */
+	-webkit-animation:mymove 1.2s;
+	-webkit-animation-iteration-count:1;
+	}
+
+	@keyframes mymove
+	{ from {top:50px; opacity: 0;}
+	to {top:0px; opacity: 1}
+	}
+
+	@-webkit-keyframes mymove /* Safari and Chrome */
+	{
+	from {top:50px; opacity: 0;}
+	to {top:0px; opacity: 1;}
 }
 
 .exit{

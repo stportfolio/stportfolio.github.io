@@ -112,12 +112,26 @@ figure:hover {
       opacity: .3; }
 
 .content {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   animation: mymove 1.2s ease-out forwards;
   animation-iteration-count: 1;
   /* Safari and Chrome */
   -webkit-animation: mymove 1.2s;
   -webkit-animation-iteration-count: 1; }
+  .content p {
+    margin: 50px; }
+  .content img {
+    max-width: 280px;
+    margin-bottom: 10px; }
+  .content h2 {
+    font-size: 18px; }
 
 @keyframes mymove {
   from {
@@ -132,21 +146,7 @@ figure:hover {
     opacity: 0; }
   to {
     top: 0px;
-    opacity: 1; }
-  margin: 0 auto;
-  max-width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  p {
-    margin: 50px; }
-  img {
-    max-width: 280px;
-    margin-bottom: 10px; }
-  h2 {
-    font-size: 18px; } }
+    opacity: 1; } }
 .exit {
   margin: 15px;
   float: right;
