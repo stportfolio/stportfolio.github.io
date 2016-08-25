@@ -35,6 +35,7 @@ figcaption {
   color: #000; }
 
 img {
+  display: block;
   margin: 0 auto;
   max-width: 100%;
   margin-bottom: 20px; }
