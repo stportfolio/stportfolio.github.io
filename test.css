@@ -69,7 +69,7 @@ figcaption {
     margin: 0 auto; }
     .main .container img {
       opacity: 1;
-      max-width: 350px;
+      max-width: 280px;
       -webkit-transition: opacity .3s ease-in-out;
       -moz-transition: opacity .3s ease-in-out;
       -o-transition: opacity .3s ease-in-out;
