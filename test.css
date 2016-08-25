@@ -149,7 +149,6 @@ figure:hover {
     opacity: 1; } }
 .exit {
   margin: 15px;
-  float: right;
   font-size: 35px;
   position: fixed;
   background: white;
@@ -210,7 +209,6 @@ figure:hover {
 
   .exit {
     margin-left: 100px;
-    float: right;
     font-size: 55px;
     position: fixed;
     background: white; } }
