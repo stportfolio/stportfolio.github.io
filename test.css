@@ -121,6 +121,11 @@ figure:hover {
   align-items: center; }
   .content p {
     margin: 50px; }
+  .content img {
+    max-width: 280px;
+    margin-bottom: 10px; }
+  .content h2 {
+    font-size: 18px; }
 
 .exit {
   margin: 15px;
