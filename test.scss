@@ -8,23 +8,28 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	background: $primary-color;
+	font-family: arial, sans-serif;
+
 }
 
 h1 {
 	font-size:40px;
+	font-family: "didact gothic", sans-serif;
+
 
 }
 
 h2 {
 	font-size:30px;
-	font-family:"didact gothic";
+	font-family: "didact gothic", sans-serif;
 }
 
 h3 {
+	font-family: "didact gothic", sans-serif;
 	font-size:18px;
 	padding:0;
 	margin:0;
-	font-family:"didact gothic", sans-serif;
+
 
 
 }
@@ -32,11 +37,7 @@ h3 {
 p {	
 	font-size:16px;
 	line-height: 23px;
-	font-family:"asap",sans-serif;
-
-}
-
-a {
+	a {
 	text-decoration: none;
 	 color:#000;
 	  -o-transition:.5s;
@@ -47,10 +48,19 @@ a {
 	}
 
 a:hover {
-	color: #c0c0c0;
+	color: #000;
+	background: #E0FF00;
+}
+	
+
 }
 
 
+
+figure  {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
 
 figcaption {
 	opacity: 1;
@@ -62,12 +72,10 @@ figcaption {
 
 figure:hover figcaption {
 	opacity:1;
+	
 }
 
-figure:hover {
-	opacity:1;
 
-}
 
 
 .main{
@@ -102,20 +110,48 @@ to {top:0px; opacity: 1;}
 
 	.name {
 		margin: 0 auto;
-		margin-top: 40px;
+		margin-top: 50px;
 		text-align:center;
-		font-family: "didact gothic", sans-serif;
+		a {
+	text-decoration: none;
+	 color:#000;
+	  -o-transition:.5s;
+	  -ms-transition:.5s;
+	  -moz-transition:.5s;
+	  -webkit-transition:.5s;
+	  transition:.5s;
+	}
+
+a:hover {
+	color: #000;
+	background: #E0FF00;
+}
+		
 
 	}
 
 	.links   {
-		font-family: "asap", sans-serif;
+
 		padding:0;
 		margin: 0 auto;
-		font-size:20px;
+		font-size:16px;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		a {
+	text-decoration: none;
+	 color:#000;
+	  -o-transition:.5s;
+	  -ms-transition:.5s;
+	  -moz-transition:.5s;
+	  -webkit-transition:.5s;
+	  transition:.5s;
+	}
+
+a:hover {
+	color: #000;
+	background: #E0FF00;
+}
 	
 	}
 	
@@ -175,7 +211,7 @@ to {top:0px; opacity: 1;}
 	align-items: center;
 	p {
 			margin:50px;
-			font-family:"asap", arial;
+			
 		}	
 	img {
 		max-width:280px;
@@ -211,6 +247,20 @@ to {top:0px; opacity: 1;}
 	position: fixed;
 	background:white;
 	z-index:5;
+	a {
+	text-decoration: none;
+	 color:#000;
+	  -o-transition:.5s;
+	  -ms-transition:.5s;
+	  -moz-transition:.5s;
+	  -webkit-transition:.5s;
+	  transition:.5s;
+	}
+
+a:hover {
+	color: #000;
+	background: #E0FF00;
+}
 }
 
 .footer {
