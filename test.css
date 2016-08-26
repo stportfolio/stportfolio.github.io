@@ -1,23 +1,26 @@
+@import "https://fonts.googleapis.com/css?family=Asap|Didact+Gothic";
 body {
   margin: 0 auto;
   width: 100%;
-  background: #fff;
-  font-family: 'arial', sans-serif; }
+  background: #fff; }
 
 h1 {
   font-size: 40px; }
 
 h2 {
-  font-size: 30px; }
+  font-size: 30px;
+  font-family: "didact gothic"; }
 
 h3 {
   font-size: 18px;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: "didact gothic", sans-serif; }
 
 p {
   font-size: 16px;
-  line-height: 23px; }
+  line-height: 23px;
+  font-family: "asap",sans-serif; }
 
 a {
   text-decoration: none;
@@ -74,8 +77,10 @@ figure:hover {
   .navigation .name {
     margin: 0 auto;
     margin-top: 40px;
-    text-align: center; }
+    text-align: center;
+    font-family: "didact gothic", sans-serif; }
   .navigation .links {
+    font-family: "asap", sans-serif;
     padding: 0;
     margin: 0 auto;
     font-size: 20px;
@@ -126,7 +131,8 @@ figure:hover {
   -webkit-animation: mymove 1.2s;
   -webkit-animation-iteration-count: 1; }
   .content p {
-    margin: 50px; }
+    margin: 50px;
+    font-family: "asap", arial; }
   .content img {
     max-width: 280px;
     margin-bottom: 10px; }
@@ -165,7 +171,7 @@ figure:hover {
     opacity: 0;
     text-align: center; }
     figcaption h3 {
-      font-size: 15px; }
+      font-size: 16px; }
 
   .main {
     display: flex;
